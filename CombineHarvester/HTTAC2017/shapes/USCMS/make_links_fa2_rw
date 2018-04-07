@@ -1,0 +1,4 @@
+ln -s /data/senka/HTT_datacards/files_Dec4/htt_em.inputs-sm-13TeV-2D_D0merged_mttmerged_mjjmerged_DCP_D0hplus_normJHU_OK_rwFinal.root htt_em.inputs-sm-13TeV-2D_D0merged_mttmerged_mjjmerged_DCP_D0hplus_normJHU_OK_rwFinal.root
+ln -s /data/senka/HTT_datacards/files_Dec4/htt_et.inputs-sm-13TeV-2D_D0merged_mttmerged_mjjmerged_DCP_D0hplus_normJHU_OK_rwFinal.root htt_et.inputs-sm-13TeV-2D_D0merged_mttmerged_mjjmerged_DCP_D0hplus_normJHU_OK_rwFinal.root
+ln -s /data/senka/HTT_datacards/files_Dec4/htt_mt.inputs-sm-13TeV-2D_D0merged_mttmerged_mjjmerged_DCP_D0hplus_normJHU_OK_rwFinal.root htt_mt.inputs-sm-13TeV-2D_D0merged_mttmerged_mjjmerged_DCP_D0hplus_normJHU_OK_rwFinal.root
+ln -s /data/senka/HTT_datacards/files_Dec4/htt_ttbar.inputs-sm-13TeV-2D_D0merged_mttmerged_mjjmerged_DCP_fa2.root htt_ttbar.inputs-sm-13TeV-2D_D0merged_mttmerged_mjjmerged_DCP_D0hplus_normJHU_OK_rwFinal.root
