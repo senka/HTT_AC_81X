@@ -59,5 +59,5 @@ hadd outputs and plot:
     python ../../CombineHarvester/scripts/plotMultiDimFit_CVAC_fa3.py higgsCombineCvAC_FITTER_exp_m0p1to0p1_6k.0to7.MultiDimFit.mH125.root --x-title #mu_{V} --y-title f_{a3} --sm-exp SM_EXP --cms-sub ""
 
 
-# datacards location:
+# datacards location ---> cards need to be copied in dir /CombineHarvester/HTTAC2017/shapes/USCMS/:
     /hdfs/store/user/senka/HTT_stuff/datacards_81/
