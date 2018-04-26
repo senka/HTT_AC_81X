@@ -35,11 +35,25 @@ differences wrt running fa3 are:
 differences wrt running fa3 are:
 
     MorphingSM2016_D0merged_DCP_fL1_rw --output_folder=${newFolder} --postfix="-Apr7" --control_region=1 --manual_rebin=false --real_data=true --mm_fit=false --ttbar_fit=true
+    ...
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i tt/125/combined.txt.cmb -o fa03_Interference_Workspace_tt.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i mt/125/combined.txt.cmb -o fa03_Interference_Workspace_mt.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i em/125/combined.txt.cmb -o fa03_Interference_Workspace_em.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i cmb/125/combined.txt.cmb -o fa03_Interference_Workspace_cmb.root
+
 
 # Running fL1Zg limits:
 differences wrt running fa3 are:
 
     MorphingSM2016_D0merged_DCP_fL1Zg_rw --output_folder=${newFolder} --postfix="-Apr7" --control_region=1 --manual_rebin=false --real_data=true --mm_fit=false --ttbar_fit=true
+    ...
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i tt/125/combined.txt.cmb -o fa03_Interference_Workspace_tt.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i mt/125/combined.txt.cmb -o fa03_Interference_Workspace_mt.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i em/125/combined.txt.cmb -o fa03_Interference_Workspace_em.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i cmb/125/combined.txt.cmb -o fa03_Interference_Workspace_cmb.root
+
 
 
 # files with running limits commands:
