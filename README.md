@@ -126,3 +126,9 @@ hadd outputs and plot:
 
 # commands to run impacts:
    /afs/cern.ch/user/s/senka/public/forYurii/do_impacts
+   
+   Since the fit is not very stable, the global fit sometimes fails when jobs are run for these numerous nuisances. The dirty fix it to simply change the best fit values for nuisances in the json file. The file name and the best fit value are hardcoded!
+   
+    python deal_with_impacts.py
+
+code: /afs/cern.ch/user/s/senka/public/forYurii/deal_with_impacts.py
