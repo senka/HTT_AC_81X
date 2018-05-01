@@ -29,6 +29,16 @@ create combined cards and workspaces:
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA3_Interference_JHU_ggHSyst_rw:FA3_Interference_JHU_ggHSyst_rw -i em/125/combined.txt.cmb -o fa03_Interference_Workspace_em.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA3_Interference_JHU_ggHSyst_rw:FA3_Interference_JHU_ggHSyst_rw -i cmb/125/combined.txt.cmb -o fa03_Interference_Workspace_cmb.root
 
+code to run limits:
+
+    cp /afs/cern.ch/user/s/senka/public/forYurii/run* .
+    source run_1D_fa3_exp # run exp fa3 scans
+    source run_1D_fa3_OBS # run obs fa3 scans
+    source run_1D_muV_for_fa3_exp # run muV exp scans
+    source run_1D_muV_for_fa3_OBS # run muV obs scans
+    source run_1D_muf_for_fa3_exp # run muf exp scans
+    source run_1D_muf_for_fa3_OBS # run muf obs scans
+
 
 # Running fa2 limits:
 
@@ -40,6 +50,14 @@ create combined cards and workspaces:
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i mt/125/combined.txt.cmb -o fa03_Interference_Workspace_mt.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i cmb/125/combined.txt.cmb -o fa03_Interference_Workspace_cmb.root
+    
+    cp /afs/cern.ch/user/s/senka/public/forYurii/run* .
+    source run_1D_fa2_fL1_fL1Zg_exp # run exp fa2 scans
+    source run_1D_fa2_fL1_fL1Zg_OBS # run obs fa2 scans
+    source run_1D_muV_exp # run muV exp scans
+    source run_1D_muV_OBS # run muV obs scans
+    source run_1D_muf_exp # run muf exp scans
+    source run_1D_muf_OBS # run muf obs scans
 
 # Running fL1 limits:
 
@@ -52,7 +70,13 @@ create combined cards and workspaces:
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i em/125/combined.txt.cmb -o fa03_Interference_Workspace_em.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i cmb/125/combined.txt.cmb -o fa03_Interference_Workspace_cmb.root
-
+    cp /afs/cern.ch/user/s/senka/public/forYurii/run* .
+    source run_1D_fa2_fL1_fL1Zg_exp # run exp fL1 scans
+    source run_1D_fa2_fL1_fL1Zg_OBS # run obs fL1 scans
+    source run_1D_muV_exp # run muV exp scans
+    source run_1D_muV_OBS # run muV obs scans
+    source run_1D_muf_exp # run muf exp scans
+    source run_1D_muf_OBS # run muf obs scans
 
 # Running fL1Zg limits:
 
@@ -65,7 +89,12 @@ create combined cards and workspaces:
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i em/125/combined.txt.cmb -o fa03_Interference_Workspace_em.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i cmb/125/combined.txt.cmb -o fa03_Interference_Workspace_cmb.root
-
+    source run_1D_fa2_fL1_fL1Zg_exp # run exp fL1Zg scans
+    source run_1D_fa2_fL1_fL1Zg_OBS # run obs fL1Zg scans
+    source run_1D_muV_exp # run muV exp scans
+    source run_1D_muV_OBS # run muV obs scans
+    source run_1D_muf_exp # run muf exp scans
+    source run_1D_muf_OBS # run muf obs scans
 
 
 # files with running limits commands:
