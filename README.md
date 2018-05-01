@@ -51,10 +51,10 @@ code to run limits:
     MorphingSM2016_D0merged_DCP_fa2_rw --output_folder=${newFolder} --postfix="-Apr7" --control_region=1 --manual_rebin=false --real_data=true --mm_fit=false --ttbar_fit=true
     cd output/AC_fa2
     combineTool.py -M T2W -i {cmb,em,et,mt,tt}/* -o workspace.root --parallel 18
-    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i tt/125/combined.txt.cmb -o fa03_Interference_Workspace_tt.root
-    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i mt/125/combined.txt.cmb -o fa03_Interference_Workspace_mt.root
-    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
-    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i cmb/125/combined.txt.cmb -o fa03_Interference_Workspace_cmb.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU_rw:FA2_Interference_JHU_rw -i tt/125/combined.txt.cmb -o fa03_Interference_Workspace_tt.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU_rw:FA2_Interference_JHU_rw -i mt/125/combined.txt.cmb -o fa03_Interference_Workspace_mt.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU_rw:FA2_Interference_JHU_rw -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
+    combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU_rw:FA2_Interference_JHU_rw -i cmb/125/combined.txt.cmb -o fa03_Interference_Workspace_cmb.root
     
     cp /afs/cern.ch/user/s/senka/public/forYurii/run* .
     source run_1D_fa2_fL1_fL1Zg_exp # run exp fa2 scans
