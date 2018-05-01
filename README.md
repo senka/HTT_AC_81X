@@ -10,6 +10,10 @@ setup
     cp /afs/cern.ch/user/s/senka/public/forAlexis/GitVersion.h CombineHarvester/CombineTools/interface/ # due to issue with github app
     scramv1 b # compiling in paralel does not work
 
+cards need to be copied (from UW) in dir /CombineHarvester/HTTAC2017/shapes/USCMS/:
+     
+     cp /hdfs/store/user/senka/HTT_stuff/datacards_81/* CombineHarvester/HTTAC2017/shapes/USCMS/
+
 
 # Running fa3 limits:
 
@@ -114,5 +118,3 @@ hadd outputs and plot:
     python ../../CombineHarvester/scripts/plotMultiDimFit_CVAC_fa3.py higgsCombineCvAC_FITTER_exp_m0p1to0p1_6k.0to7.MultiDimFit.mH125.root --x-title #mu_{V} --y-title f_{a3} --sm-exp SM_EXP --cms-sub ""
 
 
-# datacards location ---> cards need to be copied in dir /CombineHarvester/HTTAC2017/shapes/USCMS/:
-    /hdfs/store/user/senka/HTT_stuff/datacards_81/
