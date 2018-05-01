@@ -118,3 +118,8 @@ hadd outputs and plot:
     python ../../CombineHarvester/scripts/plotMultiDimFit_CVAC_fa3.py higgsCombineCvAC_FITTER_exp_m0p1to0p1_6k.0to7.MultiDimFit.mH125.root --x-title #mu_{V} --y-title f_{a3} --sm-exp SM_EXP --cms-sub ""
 
 
+# commands to run GOF:
+   /afs/cern.ch/user/s/senka/public/forYurii/do_GOF_anomalous_*
+
+# commands to run impacts:
+   /afs/cern.ch/user/s/senka/public/forYurii/do_impacts
