@@ -14,6 +14,7 @@ cards need to be copied (from UW) in dir /CombineHarvester/HTTAC2017/shapes/USCM
      
      cp /hdfs/store/user/senka/HTT_stuff/datacards_81/* CombineHarvester/HTTAC2017/shapes/USCMS/
 
+(latest txt datacards and corresponding root files which are used as inputs to create final workspaces can be found at uwlogin in dir /data/senka/HTT_datacards/cards_May1)
 
 # Running fa3 limits:
 
