@@ -50,6 +50,7 @@ code to run limits:
     newFolder=AC_fa2
     MorphingSM2016_D0merged_DCP_fa2_rw --output_folder=${newFolder} --postfix="-Apr7" --control_region=1 --manual_rebin=false --real_data=true --mm_fit=false --ttbar_fit=true
     cd output/AC_fa2
+    combineTool.py -M T2W -i {cmb,em,et,mt,tt}/* -o workspace.root --parallel 18
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i tt/125/combined.txt.cmb -o fa03_Interference_Workspace_tt.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i mt/125/combined.txt.cmb -o fa03_Interference_Workspace_mt.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FA2_Interference_JHU:FA2_Interference_JHU -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
@@ -69,6 +70,7 @@ code to run limits:
     newFolder=AC_fL1
     MorphingSM2016_D0merged_DCP_fL1_rw --output_folder=${newFolder} --postfix="-Apr7" --control_region=1 --manual_rebin=false --real_data=true --mm_fit=false --ttbar_fit=true
     cd output/AC_fL1
+    combineTool.py -M T2W -i {cmb,em,et,mt,tt}/* -o workspace.root --parallel 18
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i tt/125/combined.txt.cmb -o fa03_Interference_Workspace_tt.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i mt/125/combined.txt.cmb -o fa03_Interference_Workspace_mt.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1_Interference_JHU_rw:FL1_Interference_JHU_rw -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
@@ -88,6 +90,7 @@ code to run limits:
     newFolder=AC_fL1Zg
     MorphingSM2016_D0merged_DCP_fL1Zg_rw --output_folder=${newFolder} --postfix="-Apr7" --control_region=1 --manual_rebin=false --real_data=true --mm_fit=false --ttbar_fit=true
     cd output/AC_fL1Zg
+    combineTool.py -M T2W -i {cmb,em,et,mt,tt}/* -o workspace.root --parallel 18
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i tt/125/combined.txt.cmb -o fa03_Interference_Workspace_tt.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i mt/125/combined.txt.cmb -o fa03_Interference_Workspace_mt.root
     combineTool.py -M T2W -m 125 -P HiggsAnalysis.CombinedLimit.FL1Zg_Interference_JHU_rw:FL1Zg_Interference_JHU_rw -i et/125/combined.txt.cmb -o fa03_Interference_Workspace_et.root
